@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Задание по матстату</title>
+    <link rel="stylesheet" href="code/style.css">
+    <script src = "code/scripts.js"></script>
+    <script src = "code/graphfile.js"></script>
+    
+</head>
+
+<body>
+
+    <div id = "place" onclick="start();" >
+        <div id = "linX" class = "lineX"></div>
+        <div id = "linY" class = "lineY"></div>
+        <div id = "particle"></div>
+    </div>
+
+    <form name = "toWrite">
+       Расстояние до центра: <output name = "cout"></output></br>
+       Колличество шагов: <output name = "steps"></output></br>
+       Среднее расстояние до центра: <output name = "averag"></output></br>
+    </form>
+
+    <div id = "contanerForTable">
+            <table id = "tablo1"></table>
+        </div>
+
+    <div id="curve_chart" style="width: 900px; height: 500px; position: absolute; left: 950px; top: 0px;"></div>
+    
+    <canvas id = "myField" width="500" height="500" style="border: solid 0px red; position: absolute; left: 504px; top: 0px;"></canvas>
+</body>
+</html>
